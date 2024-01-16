@@ -1,0 +1,3 @@
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/core-populate.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/edit_cache.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+cmake_path(GET CMAKE_CURRENT_LIST_FILE PARENT_PATH TAMI_RETINEX_CMAKE_DIR)
+include(CMakeFindDependencyMacro)
+
+list(APPEND CMAKE_MODULE_PATH ${TAMI_RETINEX_CMAKE_DIR})
+list(REMOVE_AT CMAKE_MODULE_PATH -1)
+
+if(NOT TARGET TAMI::Retinex)
+    include("${TAMI_RETINEX_CMAKE_DIR}/RetinexTargets.cmake")
+endif()
+
+set(TAMI_RETINEX_LIBRARIES TAMI::Retinex)
+

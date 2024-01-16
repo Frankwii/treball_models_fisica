@@ -1,0 +1,2 @@
+/usr/bin/ar qc libretinex.a CMakeFiles/retinex.dir/src/libRetinexNL.cpp.o
+/usr/bin/ranlib libretinex.a

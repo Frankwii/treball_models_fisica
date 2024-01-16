@@ -1,0 +1,15 @@
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/retinex.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/src_pxs_RetinexNL.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/edit_cache.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/rebuild_cache.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/list_install_components.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/install.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/install/local.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/install/strip.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/core.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/edit_cache.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/rebuild_cache.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/list_install_components.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/install.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/install/local.dir
+/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/CMakeFiles/install/strip.dir

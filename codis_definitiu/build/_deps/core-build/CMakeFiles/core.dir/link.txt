@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/libBasic.cpp.o CMakeFiles/core.dir/src/libImageFormats.c.o CMakeFiles/core.dir/src/libImageFormatPM.cpp.o CMakeFiles/core.dir/src/libImage.cpp.o CMakeFiles/core.dir/src/libColorSpace.cpp.o
+/usr/bin/ranlib libcore.a

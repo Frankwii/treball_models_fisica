@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/core-populate"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/core-populate.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/CMakeFiles/core-populate-complete.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-build.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-configure.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-download.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-install.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-patch.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-test.rule"
+		},
+		{
+			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"core-populate"
+		],
+		"name" : "core-populate"
+	}
+}

@@ -1,0 +1,30 @@
+/snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu -B /home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/cmake-build-debug
+-- CPM: adding package core@0.2 (v0.2)
+[ 11%] Performing download step (git clone) for 'core-populate'
+Cloning into 'core-src'...
+fatal: unable to access 'https://github.com/cfa3352d-ea38-451b-8f61-5babfb542852/core.git/': Could not resolve host: github.com
+Cloning into 'core-src'...
+fatal: unable to access 'https://github.com/cfa3352d-ea38-451b-8f61-5babfb542852/core.git/': Could not resolve host: github.com
+Cloning into 'core-src'...
+fatal: unable to access 'https://github.com/cfa3352d-ea38-451b-8f61-5babfb542852/core.git/': Could not resolve host: github.com
+-- Had to git clone more than once: 3 times.
+CMake Error at core-subbuild/core-populate-prefix/tmp/core-populate-gitclone.cmake:39 (message):
+  Failed to clone repository:
+  'https://github.com/cfa3352d-ea38-451b-8f61-5babfb542852/core.git'
+
+
+make[2]: *** [CMakeFiles/core-populate.dir/build.make:102: core-populate-prefix/src/core-populate-stamp/core-populate-download] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/core-populate.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+
+CMake Error at /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FetchContent.cmake:1622 (message):
+  Build step for core failed: 2
+Call Stack (most recent call first):
+  /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FetchContent.cmake:1762:EVAL:2 (__FetchContent_directPopulate)
+  /snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FetchContent.cmake:1762 (cmake_language)
+  cmake-build-debug/cmake/CPM_0.36.0.cmake:967 (FetchContent_Populate)
+  cmake-build-debug/cmake/CPM_0.36.0.cmake:773 (cpm_fetch_package)
+  CMakeLists.txt:11 (CPMAddPackage)
+
+
+-- Configuring incomplete, errors occurred!
