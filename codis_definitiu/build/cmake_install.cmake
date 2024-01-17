@@ -1,4 +1,4 @@
-# Install script for directory: /home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu
+# Install script for directory: /home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -43,34 +43,34 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/bin/src_pxs_RetinexNL")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/bin/src_treball_models_fisica_varsep")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_pxs_RetinexNL")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/src_treball_models_fisica_varsep")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tami" TYPE STATIC_LIBRARY FILES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/libretinex.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tami" TYPE STATIC_LIBRARY FILES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/libretinex.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex/RetinexTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex/RetinexTargets.cmake"
-         "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets.cmake")
+         "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex/RetinexTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -83,16 +83,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex" TYPE FILE FILES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex" TYPE FILE FILES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets-release.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex" TYPE FILE FILES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex" TYPE FILE FILES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/CMakeFiles/Export/3b4b777195ee27cead6da88493f26542/RetinexTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/tami/retinex" TYPE FILE FILES
-    "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/RetinexConfig.cmake"
-    "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/RetinexConfigVersion.cmake"
+    "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/RetinexConfig.cmake"
+    "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/RetinexConfigVersion.cmake"
     )
 endif()
 
@@ -104,5 +104,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

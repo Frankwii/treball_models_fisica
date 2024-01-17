@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate-complete.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/CMakeFiles/core-populate-complete.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-build.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-build.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-configure.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-configure.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-download.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-download.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-install.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-install.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-mkdir.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-patch.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-patch.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-test.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-test.rule"
 		},
 		{
-			"file" : "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-update.rule"
+			"file" : "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-subbuild/core-populate-prefix/src/core-populate-stamp/core-populate-update.rule"
 		}
 	],
 	"target" : 

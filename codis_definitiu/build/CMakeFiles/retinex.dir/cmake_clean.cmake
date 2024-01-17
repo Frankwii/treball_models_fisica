@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/retinex.dir/src/libRetinexNL.cpp.o"
-  "CMakeFiles/retinex.dir/src/libRetinexNL.cpp.o.d"
+  "CMakeFiles/retinex.dir/src/libtreball_models_fisica.cpp.o"
+  "CMakeFiles/retinex.dir/src/libtreball_models_fisica.cpp.o.d"
   "libretinex.a"
   "libretinex.pdb"
 )

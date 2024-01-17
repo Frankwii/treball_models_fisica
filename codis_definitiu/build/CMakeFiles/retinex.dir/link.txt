@@ -1,2 +1,2 @@
-/usr/bin/ar qc libretinex.a CMakeFiles/retinex.dir/src/libRetinexNL.cpp.o
+/usr/bin/ar qc libretinex.a CMakeFiles/retinex.dir/src/libtreball_models_fisica.cpp.o
 /usr/bin/ranlib libretinex.a

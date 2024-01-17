@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.20)
 project(retinex VERSION 0.1)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -funroll-loops -fomit-frame-pointer -ffast-math -ftree-vectorize")
 
 
 include(cmake/CPM.cmake)
 
-CPMAddPackage("gh:cfa3352d-ea38-451b-8f61-5babfb542852/core@0.2")
+CPMAddPackage("gh:TAMI-UIB/core@0.2")
 
 set(RETINEX_LIBS
-        ${PROJECT_SOURCE_DIR}/src/libRetinexNL.cpp
+        ${PROJECT_SOURCE_DIR}/src/libtreball_models_fisica.cpp
 )
 
 add_library(retinex ${RETINEX_LIBS})
@@ -31,7 +31,7 @@ target_link_libraries(retinex
 add_library(TAMI::Retinex ALIAS retinex)
 
 set(SOURCE_FILES
-        ${PROJECT_SOURCE_DIR}/src/src_pxs_RetinexNL.cpp
+        ${PROJECT_SOURCE_DIR}/src/src_treball_models_fisica_varsep.cpp
 )
 
 ##############################################

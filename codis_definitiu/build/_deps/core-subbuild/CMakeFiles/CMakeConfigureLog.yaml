@@ -4,8 +4,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/cmake/1336/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:16 (project)"
     message: |
-      The system is: Linux - 5.15.0-86-generic - x86_64
+      The system is: Linux - 6.7.0-arch3-1 - x86_64
 ...

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.25)
+cmake_policy(VERSION 2.8.3...3.26)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -50,15 +50,15 @@ unset(_cmake_expected_targets)
 add_library(TAMI::core STATIC IMPORTED)
 
 set_target_properties(TAMI::core PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-src/include"
   INTERFACE_LINK_LIBRARIES "PNG::PNG;TIFF::TIFF;JPEG::JPEG;FFTW::fftw;FFTW::fftwf;m"
 )
 
-# Import target "TAMI::core" for configuration "Release"
-set_property(TARGET TAMI::core APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+# Import target "TAMI::core" for configuration "Debug"
+set_property(TARGET TAMI::core APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(TAMI::core PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
-  IMPORTED_LOCATION_RELEASE "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/_deps/core-build/libcore.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
+  IMPORTED_LOCATION_DEBUG "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/_deps/core-build/libcore.a"
   )
 
 # This file does not depend on other imported targets which have

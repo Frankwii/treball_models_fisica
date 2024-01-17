@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.25)
+cmake_policy(VERSION 2.8.3...3.26)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -50,15 +50,15 @@ unset(_cmake_expected_targets)
 add_library(TAMI::retinex STATIC IMPORTED)
 
 set_target_properties(TAMI::retinex PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:TAMI::core>"
 )
 
-# Import target "TAMI::retinex" for configuration "Release"
-set_property(TARGET TAMI::retinex APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+# Import target "TAMI::retinex" for configuration "Debug"
+set_property(TARGET TAMI::retinex APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(TAMI::retinex PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/frank/Documents/colaboracio_joan_catalina/codis/codis_definitiu/build/libretinex.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
+  IMPORTED_LOCATION_DEBUG "/home/frank/UIB/Quart/S1/models_fisica/mates/treball/codis/codis_definitiu/build/libretinex.a"
   )
 
 # Make sure the targets which have been exported in some other
